@@ -1,4 +1,4 @@
-[![Header](https://raw.githubusercontent.com/MKDYasserH/<OWNER>/<OWNER>/yasser_khalafaoui.png "Header")](https://yasser-khalafaoui.com/)
+[![Header](https://raw.githubusercontent.com/MKDYasserH/<OWNER>/<OWNER>/Yasser_Khalafaoui.png "Header")](https://yasser-khalafaoui.com/)
 ### Hi there 👋
 
 <!--
