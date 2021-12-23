@@ -1,9 +1,10 @@
 [![Header](https://github.com/MKDYasserH/MKDYasserH/blob/main/Hero_banner.png "Header")](https://yasser-khalafaoui.com/)
 
-### <div align="center">I'm Yasser, a passionate data scientist 👨‍💻 currently  working remotely 🚀</div>  
+### <div align="center">I'm Yasser, a passionate Ph.D. student 🚀</div>  
   
+- 🌱 My thesis topic : Emotional Response Recommendation for Context-Aware Affective Systems
 
-- 🔭 I’m currently working on the [Sound of AI OSR project](https://thesoundofaiosr.github.io/)  
+- 🔭 I’m also working on the [Sound of AI OSR project](https://thesoundofaiosr.github.io/)  
   
 
 - 👨‍🏫 I’m also on Udemy. Teaching [Test automation with Robot Framework](https://www.udemy.com/course/automatisation-des-tests-avec-robot-framework-a-ztm/)🤖  
