@@ -1,13 +1,13 @@
-[![Header](https://github.com/MKDYasserH/MKDYasserH/blob/main/Hero_banner.png "Header")](https://yasser-khalafaoui.com/)
+[![Header](https://github.com/MKDYasserH/MKDYasserH/blob/main/coder_banner.gif "Header")](https://yasser-khalafaoui.com/)
 
-### <div align="center">I'm Yasser, a passionate Ph.D. student 🚀</div>  
+### <div align="center">I'm Yasser, a passionate Ph.D. student in Computer Science - Artificial Intelligence 👨‍💻</div>  
   
 - 🌱 My thesis topic : Emotional Response Recommendation for Context-Aware Affective Systems
 
 - 🔭 I’m also working on the [Sound of AI OSR project](https://thesoundofaiosr.github.io/)  
   
 
-- 👨‍🏫 I’m also on Udemy. Teaching [Test automation with Robot Framework](https://www.udemy.com/course/automatisation-des-tests-avec-robot-framework-a-ztm/)🤖  
+- 👨‍🏫 I’m on Udemy. Teaching [Test automation with Robot Framework](https://www.udemy.com/course/automatisation-des-tests-avec-robot-framework-a-ztm/)🤖  
   
 
 - ❓ Ask me about anything related to Data Science  
