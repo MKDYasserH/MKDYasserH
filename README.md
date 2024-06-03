@@ -1,4 +1,4 @@
-[![Header](https://github.com/MKDYasserH/MKDYasserH/blob/main/coder_banner.gif "Header")](https://yasser-khalafaoui.com/)
+[![Header](https://github.com/MKDYasserH/MKDYasserH/blob/main/new_coder_banner.gif "Header")](https://yasser-khalafaoui.com/)
 
 ### <div align="center">I'm Yasser, a passionate Ph.D. candidate in Computer Science - Machine Learning 👨‍💻</div>  
   
