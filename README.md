@@ -4,7 +4,7 @@
   
 - 🌱 My thesis topic : Emotional Response Recommendation for Context-Aware Affective Systems 
 
-- ❓ Ask me about anything related to Data Science  
+- ❓ Ask me about anything related to Artificial Intelligence.  
   
 
 <br/>  
