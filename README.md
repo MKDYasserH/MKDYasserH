@@ -1,54 +1,13 @@
 [![Header](https://github.com/MKDYasserH/MKDYasserH/blob/main/github_banner.gif "Header")](https://yasser-khalafaoui.com/)
 
-### <div align="center">I'm Yasser, a passionate Ph.D. candidate in Computer Science - Machine Learning 👨‍💻</div>  
+### <div align="center">I'm Yasser, a dedicated Generative AI Researcher 👨‍💻</div>  
   
-- 🌱 My thesis topic : Emotional Response Recommendation for Context-Aware Affective Systems 
+- 🌱 My work focuses on LLM safety, recommender systems and multimodal emotion recognition. 
 
 - ❓ Ask me about anything related to Artificial Intelligence.  
   
 
 <br/>  
-
-
-## My Skill Set  
-<table><tr><td valign="top" width="33%">
-
-
-
-### Data Science  
-<div align="center">  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/tensorflow-icon.svg" alt="TensorFlow" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/keras.png" alt="Keras" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/pytorch-icon.svg" alt="pytorch" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/flask.png" alt="Flask" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/opencv-icon.svg" alt="OpenCV" height="50" />  
-</div>
-
-</td><td valign="top" width="33%">
-
-
-
-### Prog. Languages  
-<div align="center">  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/python-original.svg" alt="Python" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/java-original-wordmark.svg" alt="Java" height="50" />  
-</div>
-
-</td><td valign="top" width="33%">
-
-
-
-### Tools  
-<div align="center">  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/gnu_bash-icon.svg" alt="Bash" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/oracle-original.svg" alt="Oracle" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/mysql-original-wordmark.svg" alt="MySQL" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/jenkins-icon.svg" alt="Jenkins" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/tableau.svg" alt="Tableau" height="50" />  
-</div>
-
-</td></tr></table>  
 
 <br/>  
 
@@ -71,10 +30,9 @@
 
 
 ## Github Stats  
-<div align="center" style="display:inline-block;">
-  <img src="https://github-readme-stats.vercel.app/api?username=MKDYasserH&show_icons=true&count_private=true&hide_border=true&theme=onedark" align="center"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MKDYasserH&hide_border=true&layout=compact&theme=onedark" align="center" style="width: 100%"/>
-</div>
+<img src="https://github-readme-stats.vercel.app/api?username=mkdyasserh&show_icons=true&count_private=true&hide_border=true" align="left" />  
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mkdyasserh&hide_border=true&layout=compact" align="left" />  
 
 <br/>  
 
