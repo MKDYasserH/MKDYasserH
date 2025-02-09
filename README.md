@@ -1,4 +1,4 @@
-[![Header](https://github.com/MKDYasserH/MKDYasserH/blob/main/github_banner.gif "Header")](https://yasser-khalafaoui.com/)
+[![Header](https://github.com/MKDYasserH/MKDYasserH/blob/main/banner.gif "Header")](https://mkdyasserh.github.io/)
 
 ### <div align="center">I'm Yasser, a dedicated Generative AI Researcher 👨‍💻</div>  
   
@@ -14,7 +14,7 @@
 
 ## Connect with me  
 <div align="center">
-<a href="https://github.com/MKDYasserH" target="_blank">
+<a href="https://mkdyasserh.github.io/" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
 </a>
 <a href="https://twitter.com/YasserMoui" target="_blank">
