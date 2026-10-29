@@ -1,49 +1,36 @@
-[![Header](https://github.com/MKDYasserH/MKDYasserH/blob/main/banner.gif "Header")](https://mkdyasserh.github.io/)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
+  <img alt="Yasser Khalafaoui: AI researcher, PhD, lecturer" src="assets/header-dark.svg" width="100%">
+</picture>
 
-### <div align="center">I'm Yasser, a dedicated Generative AI Researcher 👨‍💻</div>  
-  
-- 🌱 My work focuses on LLM safety, recommender systems and multimodal emotion recognition. 
+I research and build AI systems: LLM evaluation, conversational agents, multi-agent orchestration, and making models safer and more reliable.
 
-- ❓ Ask me about anything related to Artificial Intelligence.  
-  
+```yaml
+now:       LLM evaluation, LLM safety, hallucination mitigation
+building:  conversational agents, multi-agent orchestration, MCP servers
+before:    multi-view clustering, matrix factorization, multimodal recommendation
+teaching:  MLOps, data wrangling, the future of AI
+```
 
-<br/>  
+### Activity
 
-<br/>  
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MKDYasserH/MKDYasserH/output/stats-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MKDYasserH/MKDYasserH/output/stats-light.svg">
+  <img alt="GitHub activity over the last 12 months" src="https://raw.githubusercontent.com/MKDYasserH/MKDYasserH/output/stats-dark.svg" width="100%">
+</picture>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MKDYasserH/MKDYasserH/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MKDYasserH/MKDYasserH/output/snake-light.svg">
+  <img alt="Contribution graph eaten by a snake" src="https://raw.githubusercontent.com/MKDYasserH/MKDYasserH/output/snake-dark.svg" width="100%">
+</picture>
 
-## Connect with me  
-<div align="center">
-<a href="https://mkdyasserh.github.io/" target="_blank">
-<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
-</a>
-<a href="https://twitter.com/YasserMoui" target="_blank">
-<img src=https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white alt=twitter style="margin-bottom: 5px;" />
-</a>
-<a href="https://linkedin.com/in/yasser-khalafaoui" target="_blank">
-<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
-</a>  
-</div>  
-  
+### Toolbox
 
-<br/>  
+`Python` `TensorFlow / Keras` `scikit-learn` `LLMs & agents` `MCP` `evaluation pipelines` `MLOps` `Manim`
 
+### Get in touch
 
-## Github Stats  
-<img src="https://github-readme-stats.vercel.app/api?username=mkdyasserh&show_icons=true&count_private=true&hide_border=true" align="left" />  
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mkdyasserh&count_private=true&hide_border=true&layout=compact" align="left" />  
-
-<br/>  
-
-  
-
-<br/>  
-
-  
-
-<br/>  
-
-
-<br />
-
+Happy to talk about LLM evaluation, conversational agents, or a research collaboration: [LinkedIn](https://www.linkedin.com/in/yasser-khalafaoui) · [X](https://x.com/YasserMoui)

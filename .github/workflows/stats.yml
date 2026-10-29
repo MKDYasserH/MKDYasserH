@@ -1,0 +1,46 @@
+name: Profile stats
+
+# Draws the stats card and the contribution snake, then publishes them to the
+# `output` branch, which the README loads its images from. No outside service.
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Stats card
+        run: python3 .github/scripts/stats.py dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_USER: ${{ github.repository_owner }}
+
+      - name: Contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-light.svg?color_snake=#4d6b00&color_dots=#ebedf0,#e4f5b0,#c5f82a,#8fbf1f,#4d6b00
+            dist/snake-dark.svg?color_snake=#c5f82a&color_dots=#161b22,#2b3a10,#4d6b00,#8fbf1f,#c5f82a
+
+      - name: Publish to the output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: Update profile stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
