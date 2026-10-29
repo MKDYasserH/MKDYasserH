@@ -6,13 +6,6 @@
 
 I research and build AI systems: LLM evaluation, conversational agents, multi-agent orchestration, and making models safer and more reliable.
 
-```yaml
-now:      LLM evals, safety, hallucinations
-building: conversational agents, MCP servers
-before:   multi-view clustering, recsys
-teaching: MLOps, data wrangling, future of AI
-```
-
 ### Activity
 
 <picture>
