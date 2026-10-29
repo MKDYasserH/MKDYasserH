@@ -7,10 +7,10 @@
 I research and build AI systems: LLM evaluation, conversational agents, multi-agent orchestration, and making models safer and more reliable.
 
 ```yaml
-now:       LLM evaluation, LLM safety, hallucination mitigation
-building:  conversational agents, multi-agent orchestration, MCP servers
-before:    multi-view clustering, matrix factorization, multimodal recommendation
-teaching:  MLOps, data wrangling, the future of AI
+now:      LLM evals, safety, hallucinations
+building: conversational agents, MCP servers
+before:   multi-view clustering, recsys
+teaching: MLOps, data wrangling, future of AI
 ```
 
 ### Activity
@@ -29,7 +29,11 @@ teaching:  MLOps, data wrangling, the future of AI
 
 ### Toolbox
 
-`Python` `TensorFlow / Keras` `scikit-learn` `LLMs & agents` `MCP` `evaluation pipelines` `MLOps` `Manim`
+<p>
+<img src="https://img.shields.io/badge/models-c5f82a?style=flat-square" alt="models"> <img src="https://img.shields.io/badge/Python-0b0c0a?style=flat-square&logo=python&logoColor=c5f82a" alt="Python"> <img src="https://img.shields.io/badge/PyTorch-0b0c0a?style=flat-square&logo=pytorch&logoColor=c5f82a" alt="PyTorch"> <img src="https://img.shields.io/badge/TensorFlow-0b0c0a?style=flat-square&logo=tensorflow&logoColor=c5f82a" alt="TensorFlow"> <img src="https://img.shields.io/badge/Keras-0b0c0a?style=flat-square&logo=keras&logoColor=c5f82a" alt="Keras"> <img src="https://img.shields.io/badge/scikit--learn-0b0c0a?style=flat-square&logo=scikitlearn&logoColor=c5f82a" alt="scikit-learn"> <img src="https://img.shields.io/badge/Transformers-0b0c0a?style=flat-square" alt="Transformers"><br>
+<img src="https://img.shields.io/badge/llms-c5f82a?style=flat-square" alt="llms"> <img src="https://img.shields.io/badge/Agents-0b0c0a?style=flat-square" alt="Agents"> <img src="https://img.shields.io/badge/MCP-0b0c0a?style=flat-square&logo=modelcontextprotocol&logoColor=c5f82a" alt="MCP"> <img src="https://img.shields.io/badge/LLM_evaluation-0b0c0a?style=flat-square" alt="LLM evaluation"><br>
+<img src="https://img.shields.io/badge/mlops-c5f82a?style=flat-square" alt="mlops"> <img src="https://img.shields.io/badge/Docker-0b0c0a?style=flat-square&logo=docker&logoColor=c5f82a" alt="Docker"> <img src="https://img.shields.io/badge/MLflow-0b0c0a?style=flat-square&logo=mlflow&logoColor=c5f82a" alt="MLflow"> <img src="https://img.shields.io/badge/DVC-0b0c0a?style=flat-square&logo=dvc&logoColor=c5f82a" alt="DVC"> <img src="https://img.shields.io/badge/Google_Cloud-0b0c0a?style=flat-square&logo=googlecloud&logoColor=c5f82a" alt="Google Cloud"><br>
+</p>
 
 ### Get in touch
 
