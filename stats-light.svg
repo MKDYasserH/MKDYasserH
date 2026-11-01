@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="220" viewBox="0 0 1280 220" role="img" aria-label="104 contributions, past year; 67 active days; monthly activity Dec to Nov">
+  <rect width="1280" height="220" rx="16" fill="#f5f5ef"/>
+  <rect x="0.5" y="0.5" width="1279" height="219" rx="16" fill="none" stroke="#d6d6cc"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">
+    <text x="64" y="52" font-size="18" fill="#5c5f56">$ git log --since="1 year ago" <tspan fill="#4d6b00">--stat</tspan></text>
+    <text x="64" y="118" font-size="56" font-weight="700" fill="#12140f" letter-spacing="-1">104</text><text x="64" y="156" font-size="20" fill="#5c5f56">contributions, past year</text><text x="464" y="118" font-size="56" font-weight="700" fill="#12140f" letter-spacing="-1">67</text><text x="464" y="156" font-size="20" fill="#5c5f56">active days</text>
+    <text x="864" y="156" font-size="20" fill="#5c5f56">monthly rhythm, Dec → Nov</text>
+  </g>
+  <g shape-rendering="crispEdges">
+    <rect x="864.0" y="118" width="21.3" height="10" rx="2" fill="#12140f"><title>2025-12: 3</title></rect>
+    <rect x="893.3" y="102" width="21.3" height="26" rx="2" fill="#12140f"><title>2026-01: 8</title></rect>
+    <rect x="922.7" y="108" width="21.3" height="20" rx="2" fill="#12140f"><title>2026-02: 6</title></rect>
+    <rect x="952.0" y="108" width="21.3" height="20" rx="2" fill="#12140f"><title>2026-03: 6</title></rect>
+    <rect x="981.3" y="95" width="21.3" height="33" rx="2" fill="#12140f"><title>2026-04: 10</title></rect>
+    <rect x="1010.7" y="108" width="21.3" height="20" rx="2" fill="#12140f"><title>2026-05: 6</title></rect>
+    <rect x="1040.0" y="76" width="21.3" height="52" rx="2" fill="#12140f"><title>2026-06: 16</title></rect>
+    <rect x="1069.3" y="99" width="21.3" height="29" rx="2" fill="#12140f"><title>2026-07: 9</title></rect>
+    <rect x="1098.7" y="105" width="21.3" height="23" rx="2" fill="#12140f"><title>2026-08: 7</title></rect>
+    <rect x="1128.0" y="99" width="21.3" height="29" rx="2" fill="#12140f"><title>2026-09: 9</title></rect>
+    <rect x="1157.3" y="56" width="21.3" height="72" rx="2" fill="#12140f"><title>2026-10: 22</title></rect>
+    <rect x="1186.7" y="126" width="21.3" height="2" rx="2" fill="#4d6b00"><title>2026-11: 0</title></rect>
+  </g>
+  <rect x="424" y="72" width="1" height="96" fill="#d6d6cc"/>
+  <rect x="824" y="72" width="1" height="96" fill="#d6d6cc"/>
+  <rect x="64" y="186" width="64" height="6" fill="#c5f82a"/>
+</svg>
