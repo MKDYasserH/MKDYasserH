@@ -15,9 +15,9 @@ I research and build AI systems: LLM evaluation, conversational agents, multi-ag
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MKDYasserH/MKDYasserH/output/snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MKDYasserH/MKDYasserH/output/snake-light.svg">
-  <img alt="Contribution graph eaten by a snake" src="https://raw.githubusercontent.com/MKDYasserH/MKDYasserH/output/snake-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MKDYasserH/MKDYasserH/output/momentum-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MKDYasserH/MKDYasserH/output/momentum-light.svg">
+  <img alt="Cumulative GitHub contributions over the past year" src="https://raw.githubusercontent.com/MKDYasserH/MKDYasserH/output/momentum-dark.svg" width="100%">
 </picture>
 
 ### Toolbox
