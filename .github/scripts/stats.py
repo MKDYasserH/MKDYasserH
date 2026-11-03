@@ -93,68 +93,6 @@ def card(stats, months, t):
 """
 
 
-def nice_step(peak, ticks=5):
-    """A round gridline step (1, 2, 2.5 or 5 times a power of ten) giving about `ticks` lines."""
-    raw = max(peak, 1) / ticks
-    mag = 10 ** (len(str(int(raw))) - 1)
-    return next(m * mag for m in (1, 2, 2.5, 5, 10) if m * mag >= raw)
-
-
-def momentum(days, t):
-    """Cumulative contributions over the past year, drawn as a line with a soft fill."""
-    w, h = 1280, 380
-    left, right, top, bottom = 128, 1216, 96, 300
-    days = sorted(days)
-    total, points = 0, []
-    for _, count in days:
-        total += count
-        points.append(total)
-    step = nice_step(total)
-    ymax = step * -(-total // step) if total else step
-    sx = (right - left) / max(len(points) - 1, 1)
-    sy = (bottom - top) / ymax
-    xy = [(left + i * sx, bottom - v * sy) for i, v in enumerate(points)]
-    line = " ".join(f"{'M' if i == 0 else 'L'}{x:.1f},{y:.1f}" for i, (x, y) in enumerate(xy))
-    area = f"{line} L{xy[-1][0]:.1f},{bottom} L{left},{bottom} Z"
-
-    grid = []
-    v = 0
-    while v <= ymax:
-        y = bottom - v * sy
-        grid.append(f'<line x1="{left}" x2="{right}" y1="{y:.1f}" y2="{y:.1f}" stroke="{t["rule"]}"/>'
-                    f'<text x="{left - 20}" y="{y + 8:.1f}" text-anchor="end" font-size="22" fill="{t["quiet"]}">{v:g}</text>')
-        v += step
-    months = []
-    for i, (date, _) in enumerate(days):
-        if date.endswith("-01"):
-            x = left + i * sx
-            months.append(f'<text x="{x:.1f}" y="{bottom + 36}" text-anchor="middle" font-size="22" fill="{t["quiet"]}">'
-                          f'{dt.date.fromisoformat(date).strftime("%b")}</text>')
-    ex, ey = xy[-1]
-    first = dt.date.fromisoformat(days[0][0]).strftime("%b %Y")
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="Cumulative contributions since {first}: {total}">
-  <defs>
-    <linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="{t['spot']}" stop-opacity="0.28"/>
-      <stop offset="1" stop-color="{t['spot']}" stop-opacity="0"/>
-    </linearGradient>
-  </defs>
-  <rect width="{w}" height="{h}" rx="16" fill="{t['bg']}"/>
-  <rect x="0.5" y="0.5" width="{w - 1}" height="{h - 1}" rx="16" fill="none" stroke="{t['rule']}"/>
-  <g font-family="{MONO}">
-    <text x="64" y="52" font-size="18" fill="{t['quiet']}">$ git log --since="1 year ago" <tspan fill="{t['accent']}">--cumulative</tspan></text>
-    {''.join(grid)}
-    {''.join(months)}
-    <path d="{area}" fill="url(#fill)"/>
-    <path d="{line}" fill="none" stroke="{t['accent']}" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
-    <circle cx="{ex:.1f}" cy="{ey:.1f}" r="6" fill="{t['accent']}"/>
-    <circle cx="{ex:.1f}" cy="{ey:.1f}" r="12" fill="none" stroke="{t['accent']}" stroke-opacity="0.35" stroke-width="2"/>
-    <text x="{ex - 20:.1f}" y="{ey - 18:.1f}" text-anchor="end" font-size="28" font-weight="700" fill="{t['ink']}">{total:,}</text>
-  </g>
-</svg>
-"""
-
-
 def main():
     out = Path(sys.argv[1])
     out.mkdir(parents=True, exist_ok=True)
@@ -168,7 +106,6 @@ def main():
     months = monthly(days)
     for name, theme in THEMES.items():
         (out / f"stats-{name}.svg").write_text(card(stats, months, theme))
-        (out / f"momentum-{name}.svg").write_text(momentum(days, theme))
     print(dt.date.today(), stats, months)
 
 

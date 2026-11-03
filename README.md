@@ -14,12 +14,6 @@ I research and build AI systems: LLM evaluation, conversational agents, multi-ag
   <img alt="GitHub activity over the last 12 months" src="https://raw.githubusercontent.com/MKDYasserH/MKDYasserH/output/stats-dark.svg" width="100%">
 </picture>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MKDYasserH/MKDYasserH/output/momentum-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MKDYasserH/MKDYasserH/output/momentum-light.svg">
-  <img alt="Cumulative GitHub contributions over the past year" src="https://raw.githubusercontent.com/MKDYasserH/MKDYasserH/output/momentum-dark.svg" width="100%">
-</picture>
-
 ### Toolbox
 
 <p>

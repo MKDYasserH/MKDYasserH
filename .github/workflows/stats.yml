@@ -1,6 +1,6 @@
 name: Profile stats
 
-# Draws the stats card and the momentum chart, then publishes them to the
+# Draws the stats card (dark and light), then publishes it to the
 # `output` branch, which the README loads its images from. No outside service.
 on:
   schedule:
@@ -22,7 +22,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Stats card and momentum chart
+      - name: Stats card
         run: python3 .github/scripts/stats.py dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
